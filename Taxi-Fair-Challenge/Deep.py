@@ -490,8 +490,8 @@ import xgboost as xgb
 
 
 import os
-os.environ['http_proxy']="http://gec-proxy-svr.homeoffice.wal-mart.com:8080"
-os.environ['https_proxy']="http://gec-proxy-svr.homeoffice.wal-mart.com:8080"
+os.environ['http_proxy']=http_proxy
+os.environ['https_proxy']=https_proxy
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
 os.environ['CUDA_VISIBLE_DEVICES']='3'
 
